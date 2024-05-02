@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_delivery_delivery_methods",
+  "info": {
+    "displayName": "DeliveryMethod",
+    "icon": "car",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "sign_up_pages",
+  "info": {
+    "singularName": "sign-up-page",
+    "pluralName": "sign-up-pages",
+    "displayName": "SignUpPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "signUpImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": true,
+      "required": true,
+      "component": "page-properties.seo"
+    }
+  }
+}

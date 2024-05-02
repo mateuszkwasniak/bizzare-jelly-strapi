@@ -1,0 +1,37 @@
+{
+  "name": "shop-strapi",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "scripts": {
+    "build": "npm strapi build",
+    "develop": "strapi develop",
+    "install": "npm install",
+    "start": "strapi start",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-cloud": "4.20.5",
+    "@strapi/plugin-i18n": "4.20.5",
+    "@strapi/plugin-users-permissions": "4.20.5",
+    "@strapi/provider-email-sendmail": "^4.20.5",
+    "@strapi/strapi": "4.20.5",
+    "pg": "8.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3",
+    "validator": "^13.11.0"
+  },
+  "engines": {
+    "node": "20.9.0",
+    "npm": "10.1.0"
+  },
+  "strapi": {
+    "uuid": "41d4b5df-3ec9-4f58-a806-98d3969216c4"
+  }
+}

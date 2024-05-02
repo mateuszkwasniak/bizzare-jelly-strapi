@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_contact_addresses",
+  "info": {
+    "displayName": "Address",
+    "icon": "house",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "street": {
+      "type": "string",
+      "required": true,
+      "minLength": 2,
+      "maxLength": 50
+    },
+    "local": {
+      "type": "string",
+      "required": true,
+      "maxLength": 10,
+      "minLength": 1
+    },
+    "city": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50,
+      "minLength": 2
+    },
+    "postal": {
+      "type": "string",
+      "required": true,
+      "regex": "^\\d{2}-\\d{3}$"
+    }
+  }
+}

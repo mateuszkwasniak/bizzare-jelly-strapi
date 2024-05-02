@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_payment_payment_methods",
+  "info": {
+    "displayName": "PaymentMethod",
+    "icon": "handHeart"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

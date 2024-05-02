@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "sign_in_pages",
+  "info": {
+    "singularName": "sign-in-page",
+    "pluralName": "sign-in-pages",
+    "displayName": "SignInPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "signInImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "page-properties.seo"
+    }
+  }
+}

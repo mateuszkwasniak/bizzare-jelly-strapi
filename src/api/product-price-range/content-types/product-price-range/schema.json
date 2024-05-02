@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "product_price_ranges",
+  "info": {
+    "singularName": "product-price-range",
+    "pluralName": "product-price-ranges",
+    "displayName": "ProductPriceRange"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "range": {
+      "type": "component",
+      "repeatable": true,
+      "component": "product.price-range"
+    }
+  }
+}

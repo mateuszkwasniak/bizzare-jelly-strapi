@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_sections_arrivals_sections",
+  "info": {
+    "displayName": "ArrivalsSection",
+    "icon": "seed",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50,
+      "minLength": 2
+    },
+    "newProducts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    }
+  }
+}

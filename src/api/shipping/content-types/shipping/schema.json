@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shippings",
+  "info": {
+    "singularName": "shipping",
+    "pluralName": "shippings",
+    "displayName": "Shipping",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "street": {
+      "type": "string",
+      "required": true,
+      "minLength": 2,
+      "maxLength": 50
+    },
+    "local": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50,
+      "minLength": 1
+    },
+    "city": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50,
+      "minLength": 2
+    },
+    "postal": {
+      "type": "string",
+      "required": true,
+      "regex": "^\\d{2}-\\d{3}$"
+    },
+    "firstName": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50,
+      "minLength": 2
+    },
+    "lastName": {
+      "type": "string",
+      "required": true,
+      "maxLength": 50,
+      "minLength": 2
+    },
+    "phone": {
+      "type": "string",
+      "required": true,
+      "regex": "^\\+48\\s\\d{3}\\s\\d{3}\\s\\d{3}$"
+    },
+    "main": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

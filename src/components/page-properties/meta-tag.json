@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_properties_meta_tags",
+  "info": {
+    "displayName": "MetaTag",
+    "icon": "earth",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

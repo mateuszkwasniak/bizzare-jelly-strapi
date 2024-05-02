@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "deliveries",
+  "info": {
+    "singularName": "delivery",
+    "pluralName": "deliveries",
+    "displayName": "Delivery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "method": {
+      "type": "component",
+      "repeatable": true,
+      "component": "delivery.delivery-method"
+    }
+  }
+}

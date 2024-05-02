@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_order_items",
+  "info": {
+    "displayName": "Item",
+    "icon": "television"
+  },
+  "options": {},
+  "attributes": {
+    "count": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 100,
+      "default": 1
+    },
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_properties_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Bizzare Jelly"
+    },
+    "metaDescription": {
+      "type": "text",
+      "required": true
+    },
+    "metaTag": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-properties.meta-tag"
+    }
+  }
+}

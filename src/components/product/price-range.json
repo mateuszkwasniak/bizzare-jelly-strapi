@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_product_price_ranges",
+  "info": {
+    "displayName": "PriceRange",
+    "icon": "database"
+  },
+  "options": {},
+  "attributes": {
+    "index": {
+      "type": "integer",
+      "required": true
+    },
+    "min": {
+      "type": "decimal",
+      "required": true
+    },
+    "max": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

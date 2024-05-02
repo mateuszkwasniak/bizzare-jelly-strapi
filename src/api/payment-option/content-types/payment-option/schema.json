@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "payment_options",
+  "info": {
+    "singularName": "payment-option",
+    "pluralName": "payment-options",
+    "displayName": "PaymentOption"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "option": {
+      "type": "component",
+      "repeatable": true,
+      "component": "payment.payment-method"
+    }
+  }
+}

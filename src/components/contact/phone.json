@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_contact_phones",
+  "info": {
+    "displayName": "Phone",
+    "icon": "phone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {}
+}
