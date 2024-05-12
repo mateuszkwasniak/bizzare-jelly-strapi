@@ -5,7 +5,7 @@ module.exports = [
   {
     name: "strapi::cors",
     config: {
-      headers: "*",
+      headers: ["Authorization", "*"],
       origin: [
         "http://localhost:1337",
         "https://bizzare-jelly.vercel.app",
