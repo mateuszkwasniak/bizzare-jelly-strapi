@@ -5,12 +5,15 @@ module.exports = [
   {
     name: "strapi::cors",
     config: {
-      headers: "Authorization",
       origin: [
         "http://localhost:1337",
+        "http://localhost:3000",
         "https://bizzare-jelly.vercel.app",
         "https://bizzare-jelly-strapi-production.up.railway.app",
       ],
+      methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"],
+      headers: ["Content-Type", "Authorization", "Origin", "Accept"],
+      keepHeaderOnError: true,
     },
   },
   "strapi::poweredBy",
